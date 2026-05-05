@@ -1,108 +1,97 @@
-Here’s a cleaner, more professional rewrite of your setup guide:
+# 🚀 FALCON AI Assistant
+
+FALCON AI is a smart desktop assistant that can perform system operations, open applications, and provide AI-powered responses with memory.
 
 ---
 
-# 🚀 FALCON AI Assistant – Setup Guide
+## ✨ Features
 
-Follow the steps below to install and run **FALCON AI Assistant** on your system.
+* Open applications
+* Open folders
+* Open websites
+* Get current time (local + world)
+* Get date and day
+* Mute / Unmute system
+* Lock system
+* Sleep / Restart / Shutdown
+* AI chat with memory
 
 ---
 
-## 1️⃣ Install Python 3.11
+## 🛠️ Tech Stack
 
-* Download and install **Python 3.11** for your operating system.
-* On Windows, make sure to check **“Add Python to PATH”** during installation.
-* Verify the installation in your terminal:
+* Python 3.11
+* APIs (Groq / Gemini)
+* OS Automation
+
+---
+
+## 📦 Setup Guide
+
+Follow the steps below to install and run the project:
+
+### 1️⃣ Install Python 3.11
+
+Check installation:
 
 ```bash
 python --version
 ```
 
-📥 Download link (Windows x64):
-[https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe](https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe)
-
----
-
-## 2️⃣ Create a Virtual Environment
-
-Inside your project folder, run:
+### 2️⃣ Create Virtual Environment
 
 ```bash
-  py -3.11 -m venv .venv
+py -3.11 -m venv .venv
 ```
 
----
-
-## 3️⃣ Activate the Virtual Environment
-
-* **Windows (Command Prompt / PowerShell):**
-
-  ```bash
-  .venv\Scripts\activate
-  ```
-* **macOS/Linux:**
-
-  ```bash
-  source .venv/bin/activate
-  ```
-
----
-
-## 4️⃣ Upgrade pip (recommended)
+### 3️⃣ Activate Environment
 
 ```bash
-python -m pip install --upgrade pip
+.venv\Scripts\activate
 ```
 
----
-
-## 5️⃣ Install Project Dependencies
+### 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
+### 5️⃣ Add Environment Variables
 
-## 6️⃣ Set Environment Variables
-
-Create a `.env` file in the project root with the following content:
+Create `.env` file:
 
 ```env
-GROQ_API_KEY=your_groq_api_key_here
-GEMINI_API_KEY=your_gemini_api_key_here
+GROQ_API_KEY=your_key
+GEMINI_API_KEY=your_key
 ```
 
-*(Replace with your actual API keys.)*
-
----
-
-## 7️⃣ Run the Application
+### 6️⃣ Run Project
 
 ```bash
 python Falcon.py
 ```
 
-Once started, open your browser and go to:
-[http://localhost:8000](http://localhost:8000)
+Open:
+http://localhost:8000
 
 ---
 
+## 📌 Note
 
-Your Falcon Level 1 is now officially working.
+This project is based on an existing concept/template.
+The original source link is not available.
 
-You now have:
+---
 
-✅ Open apps
-✅ Open folders
-✅ Open websites
-✅ Time (local + world)
-✅ Date & day
-✅ Mute / Unmute
-✅ Lock
-✅ Sleep
-✅ Restart
-✅ Shutdown
-✅ AI chat with memory
+## ✨ My Contributions
 
-That’s actually a solid assistant foundation.
+* Customized and modified functionality
+* Improved structure and usability
+* Integrated APIs and system controls
+* Enhanced user interaction
+
+---
+
+## 👤 Author
+
+Tariq Choudhary
